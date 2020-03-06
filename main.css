@@ -1,0 +1,173 @@
+body {
+    font-family:'Spartan', sans-serif; 
+    background-color: #f2f1f2;
+}
+
+
+.demo-card-square.mdl-card {
+    width: 100%;
+    height: 210px;
+}
+
+.demo-card-square {
+   background:
+ url(./livro.jpg) bottom right no-repeat;
+   background-size: cover;
+}
+
+.mdl-card__title, .mdl-card__supporting-text, .mdl-card__actions, .mdl-card__subtitle-text{
+    color: white;
+    margin-top: 5px;
+}
+
+
+.mdl-shadow--2dp {
+    box-shadow: none;
+}
+
+#texto-card {
+    padding: inherit;
+    margin: inherit;
+}
+
+.mdl-chip {
+    color: white;
+    background: rgb(63,81,181);
+}
+
+#adicionar {
+    margin:0 10px 10px auto;
+    background-color: rgb(211, 211, 211);
+    color: rgb(82, 80, 80);
+}
+
+#chips {
+    margin: 10px;
+    display: flex;
+    height: 40px;
+    overflow-x: scroll;   
+    overflow-y: hidden;
+}
+
+.mdl-chip { 
+    margin: 5px;;
+}
+
+#charts-card{
+    display: flex;
+    margin: 30px 20px;
+    justify-content: space-between;
+}
+
+.botao {
+    margin-top: -10px;
+}
+
+
+
+#cards {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.mdc-card{
+    width: 160px;
+    margin-left: 20px;
+    height: 300px;
+}
+
+.mdc-card__media1 {
+    background-image: url("./card1.jpg");
+    background-size: 100px;
+    height: 200px;
+  }
+
+  
+.mdc-card__media2 {
+    background-image: url("./card2.jpg");
+    background-size: 110px;
+    height: 150px;
+  }
+
+  
+.mdc-card__media3 {
+    background-image: url("./card3.jpg");
+    background-size: 100px;
+    height: 200px;
+  }
+
+
+.mdc-card__actions-full-bleed {
+    display: block;
+    padding: 8px;
+}
+
+.mdc-card__supporting-text {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#author-card{
+    display: flex;
+    margin: 30px 20px;
+    justify-content: space-between;
+}
+
+.mdl-list {
+    display: flex;
+}
+
+
+.mdl-list__item .mdl-list__item-primary-content {
+    flex-direction: column-reverse;
+    padding: 0px;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.mdc-image-list__image1 {    
+    background-image: url(./han.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.mdc-image-list__image2 {
+    background-image: url(./davis.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.mdc-image-list__image3 {
+    background-image: url(./haru.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.mdl-button .material-icons {
+    color: rgb(131, 131, 131);
+}
+
+
+@media screen and (max-width: 1024px) {
+.mdl-layout__header-row {
+    height: 56px;
+    padding: 0 16px 0 15px;
+    border: 10px solid rgb(63,81,181);
+    border-radius: 10px;
+    background: white;
+    }
+}
+
